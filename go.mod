@@ -8,7 +8,6 @@ require (
 	github.com/google/go-cmp v0.7.0
 	github.com/hashicorp/hcl/v2 v2.24.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.38.1
-	github.com/terraform-linters/tflint-ruleset-google v0.36.0
 	google.golang.org/api v0.252.0
 )
 
