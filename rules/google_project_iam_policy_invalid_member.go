@@ -3,9 +3,9 @@ package rules
 import (
 	"fmt"
 
-	"github.com/terraform-linters/tflint-plugin-sdk/hclext"
-	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
-	"github.com/terraform-linters/tflint-ruleset-google/project"
+	"github.com/arsiba/tofulint-plugin-sdk/hclext"
+	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/arsiba/tofulint-ruleset-google/project"
 )
 
 // GoogleProjectIamPolicyInvalidMemberRule checks whether member value is invalid

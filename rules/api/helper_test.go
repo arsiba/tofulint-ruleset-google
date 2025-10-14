@@ -3,8 +3,8 @@ package api
 import (
 	"testing"
 
-	"github.com/terraform-linters/tflint-plugin-sdk/helper"
-	"github.com/terraform-linters/tflint-ruleset-google/google"
+	"github.com/arsiba/tofulint-plugin-sdk/helper"
+	"github.com/arsiba/tofulint-ruleset-google/google"
 )
 
 func NewTestRunner(t *testing.T, files map[string]string) *google.Runner {

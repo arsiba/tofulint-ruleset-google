@@ -19,7 +19,7 @@ import (
 
 var token = os.Getenv("GITHUB_TOKEN")
 var versionRegexp = regexp.MustCompile(`^\d+\.\d+\.\d+$`)
-var goModRequireSDKRegexp = regexp.MustCompile(`github\.com/terraform-linters/tflint-plugin-sdk v(.+)`)
+var goModRequireSDKRegexp = regexp.MustCompile(`github\.com/arsiba/tofulint-plugin-sdk v(.+)`)
 
 func main() {
 	if err := os.Chdir("../../"); err != nil {
@@ -157,8 +157,8 @@ func checkGitStatus() error {
 	if err := execCommand(stdout, "git", "config", "--get", "remote.origin.url"); err != nil {
 		return err
 	}
-	if !strings.Contains(strings.TrimSpace(stdout.String()), "terraform-linters/tflint-ruleset-google") {
-		return fmt.Errorf("remote.origin is not terraform-linters/tflint-ruleset-google, got %s", strings.TrimSpace(stdout.String()))
+	if !strings.Contains(strings.TrimSpace(stdout.String()), "arsiba/tofulint-ruleset-google") {
+		return fmt.Errorf("remote.origin is not arsiba/tofulint-ruleset-google, got %s", strings.TrimSpace(stdout.String()))
 	}
 	return nil
 }
@@ -211,8 +211,8 @@ func generateReleaseNote(old string, new string, savedPath string) error {
 
 	note, _, err := client.Repositories.GenerateReleaseNotes(
 		context.Background(),
-		"terraform-linters",
-		"tflint-ruleset-google",
+		"arsiba",
+		"tofulint-ruleset-google",
 		&github.GenerateNotesOptions{
 			TagName:         tagName,
 			PreviousTagName: &previousTagName,

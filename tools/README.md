@@ -9,5 +9,5 @@ This directory contains scripts for automating various operations.
 See the README for how to use this module. You can generate rules with the command like the following:
 
 ```console
-$ bundle exec compiler -a --force tflint -v ga -e terraform -o $GOPATH/src/github.com/terraform-linters/tflint-ruleset-google/rules/magicmodules
+$ bundle exec compiler -a --force tflint -v ga -e terraform -o $GOPATH/src/github.com/arsiba/tofulint-ruleset-google/rules/magicmodules
 ```

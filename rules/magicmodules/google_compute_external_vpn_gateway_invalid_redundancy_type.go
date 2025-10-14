@@ -15,9 +15,9 @@
 package magicmodules
 
 import (
+	"github.com/arsiba/tofulint-plugin-sdk/hclext"
+	"github.com/arsiba/tofulint-plugin-sdk/tflint"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/terraform-linters/tflint-plugin-sdk/hclext"
-	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
 )
 
 // GoogleComputeExternalVpnGatewayInvalidRedundancyTypeRule checks the pattern is valid

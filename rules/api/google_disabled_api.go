@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/terraform-linters/tflint-plugin-sdk/hclext"
-	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
-	"github.com/terraform-linters/tflint-ruleset-google/google"
-	"github.com/terraform-linters/tflint-ruleset-google/project"
-	"github.com/terraform-linters/tflint-ruleset-google/rules/magicmodules"
+	"github.com/arsiba/tofulint-plugin-sdk/hclext"
+	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/arsiba/tofulint-ruleset-google/google"
+	"github.com/arsiba/tofulint-ruleset-google/project"
+	"github.com/arsiba/tofulint-ruleset-google/rules/magicmodules"
 	"google.golang.org/api/serviceusage/v1"
 )
 

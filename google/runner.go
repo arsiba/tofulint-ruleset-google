@@ -3,7 +3,7 @@ package google
 import (
 	"fmt"
 
-	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
+	"github.com/arsiba/tofulint-plugin-sdk/tflint"
 )
 
 // Runner is a wrapper of RPC client for inserting custom actions for Google provider.

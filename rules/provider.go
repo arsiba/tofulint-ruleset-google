@@ -1,9 +1,9 @@
 package rules
 
 import (
-	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
-	"github.com/terraform-linters/tflint-ruleset-google/rules/api"
-	"github.com/terraform-linters/tflint-ruleset-google/rules/magicmodules"
+	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/arsiba/tofulint-ruleset-google/rules/api"
+	"github.com/arsiba/tofulint-ruleset-google/rules/magicmodules"
 )
 
 var manualRules = []tflint.Rule{
