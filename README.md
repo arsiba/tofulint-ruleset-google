@@ -17,7 +17,7 @@ You can install the plugin by adding a config to `.tflint.hcl` or `.tofulint.hcl
 ```hcl
 plugin "google" {
     enabled = true
-    version = "0.0.1"
+    version = "0.0.2"
     source  = "github.com/arsiba/tofulint-ruleset-google"
 }
 ```
