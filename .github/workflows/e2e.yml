@@ -30,20 +30,18 @@ jobs:
       uses: actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00 # v6.0.0
       with:
         go-version-file: 'go.mod'
-    - name: Install TFLint
+
+    - name: Install TofuLint
       run: curl -sL https://raw.githubusercontent.com/arsiba/tofulint/master/install_linux.sh | bash
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Install plugin (Linux)
-      if: runner.os == 'Linux'
-      run: make install
-    - name: Install plugin (Windows)
-      if: runner.os == 'Windows'
-      run: |
-        mkdir -p ~/.tflint.d/plugins
-        go build -o ~/.tflint.d/plugins/tofulint-ruleset-google.exe
-      shell: bash
+
     - name: Verify installation
-      run: tofulint --init && tofulint --version
+      run: tofulint --version
+
+    - name: Init TofuLint (basic test dir)
+      run: tofulint --init
+      working-directory: integration/basic
+
     - name: Run E2E tests
       run: make e2e
