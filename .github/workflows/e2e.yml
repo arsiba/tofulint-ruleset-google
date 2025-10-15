@@ -44,6 +44,10 @@ jobs:
         go build -o ~/.tflint.d/plugins/tofulint-ruleset-google.exe
       shell: bash
     - name: Verify installation
-      run: tofulint --init && tofulint --version
+      run: tofulint --version
+    - name: init Tofulint
+      run: tofulint --init
+    - name: Verify installation
+      run: tofulint --version
     - name: Run E2E tests
       run: make e2e
