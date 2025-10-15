@@ -8,7 +8,7 @@
           },
           "message":"expected override_strategy to be one of [\"STRICT\" \"OVERRIDE\" \"\"], got DEFAULT",
           "range":{
-             "filename":"main.tf",
+             "filename":"main.tofu",
              "start":{
                 "line":3,
                 "column":23

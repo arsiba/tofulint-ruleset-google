@@ -36,7 +36,7 @@ func TestIntegration(t *testing.T) {
 	}{
 		{
 			Name:    "basic",
-			Command: exec.Command("tflint", "--format", "json", "--force"),
+			Command: exec.Command("tofulint", "--format", "json", "--force"),
 			Dir:     "basic",
 		},
 	}
