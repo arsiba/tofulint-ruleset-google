@@ -7,17 +7,17 @@ TFLint ruleset plugin for Terraform Google Cloud Platform provider
 
 ## Requirements
 
-- TFLint v0.46+
+- TofuLint v0.2+
 - Go v1.25
 
 ## Installation
 
-You can install the plugin by adding a config to `.tflint.hcl` and running `tflint --init`:
+You can install the plugin by adding a config to `.tflint.hcl` or `.tofulint.hcl` and running `tofulint --init`:
 
 ```hcl
 plugin "google" {
     enabled = true
-    version = "0.36.0"
+    version = "0.0.1"
     source  = "github.com/arsiba/tofulint-ruleset-google"
 }
 ```
@@ -42,7 +42,7 @@ You can easily install the built plugin with the following:
 $ make install
 ```
 
-Note that if you install the plugin with `make install`, you must omit the `version` and `source` attributes in `.tflint.hcl`:
+Note that if you install the plugin with `make install`, you must omit the `version` and `source` attributes in `.tflint.hcl` or `tofulint.hcl`:
 
 ```hcl
 plugin "google" {
