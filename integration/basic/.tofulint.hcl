@@ -1,6 +1,6 @@
 plugin "opentofu" {
   enabled = false
-  version = "0.0.7"
+  version = "0.0.6"
   source = "github.com/arsiba/tofulint-ruleset-opentofu"
 }
 
