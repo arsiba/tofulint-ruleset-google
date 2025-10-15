@@ -34,15 +34,6 @@ jobs:
       run: curl -sL https://raw.githubusercontent.com/arsiba/tofulint/master/install_linux.sh | bash
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Install plugin (Linux)
-      if: runner.os == 'Linux'
-      run: make install
-    - name: Install plugin (Windows)
-      if: runner.os == 'Windows'
-      run: |
-        mkdir -p ~/.tflint.d/plugins
-        go build -o ~/.tflint.d/plugins/tofulint-ruleset-google.exe
-      shell: bash
     - name: Verify installation
       run: tofulint --version
     - name: init Tofulint
