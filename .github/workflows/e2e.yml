@@ -43,5 +43,7 @@ jobs:
         mkdir -p ~/.tflint.d/plugins
         go build -o ~/.tflint.d/plugins/tofulint-ruleset-google.exe
       shell: bash
+    - name: Verify installation
+      run: tofulint --init && tofulint --version
     - name: Run E2E tests
       run: make e2e
