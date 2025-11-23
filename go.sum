@@ -4,6 +4,8 @@ cloud.google.com/go/auth/oauth2adapt v0.2.8 h1:keo8NaayQZ6wimpNSmW5OPc283g65QNIi
 cloud.google.com/go/auth/oauth2adapt v0.2.8/go.mod h1:XQ9y31RkqZCcwJWNSx2Xvric3RrU88hAYYbjDWYDL+c=
 cloud.google.com/go/compute/metadata v0.9.0 h1:pDUj4QMoPejqq20dK0Pg2N4yG9zIkYGdBtwLoEkH9Zs=
 cloud.google.com/go/compute/metadata v0.9.0/go.mod h1:E0bWwX5wTnLPedCKqk3pJmVgCBSM6qQI1yTBdEb3C10=
+github.com/SoeldnerConsult/tofulint-plugin-sdk v0.0.3 h1:ZHfCOtqk3k+wYi7VA7Is6qYn35qYQi2KI1VvqVZTni8=
+github.com/SoeldnerConsult/tofulint-plugin-sdk v0.0.3/go.mod h1:CDznCpEWa3DUxFOFE8uCzDtDkuPd+m+9q67Zyq5u02o=
 github.com/agext/levenshtein v1.2.2 h1:0S/Yg6LYmFJ5stwQeRp6EeOcCbj7xiqQSdNelsXvaqE=
 github.com/agext/levenshtein v1.2.2/go.mod h1:JEDfjyjHDjOF/1e4FlBE/PkbqA9OfWu2ki2W0IB5558=
 github.com/apparentlymart/go-textseg/v12 v12.0.0/go.mod h1:S/4uRK2UtaQttw1GenVJEynmyUenKwP++x/+DdGV/Ec=
@@ -11,6 +13,8 @@ github.com/apparentlymart/go-textseg/v15 v15.0.0 h1:uYvfpb3DyLSCGWnctWKGj857c6ew
 github.com/apparentlymart/go-textseg/v15 v15.0.0/go.mod h1:K8XmNZdhEBkdlyDdvbmmsvpAG721bKi0joRfFdHIWJ4=
 github.com/arsiba/tofulint-plugin-sdk v0.0.2 h1:gr5hArqAYuyZNuKhE3uKKZ4wS2e2rvLLEj+Gr5BKjW8=
 github.com/arsiba/tofulint-plugin-sdk v0.0.2/go.mod h1:kcJPp/tr/y0Pl/MxBb9rByicX0VlRNpjeT4rCtt30fE=
+github.com/arsiba/tofulint-ruleset-google v0.0.2 h1:uHy9PCLc2UaGwkjFVzV4EhQ4rrfcNWydENbQQsJ2GrY=
+github.com/arsiba/tofulint-ruleset-google v0.0.2/go.mod h1:VMD003itKfQCO32cfXvpmXh8WaqnAeAxBw4/g3FQOGY=
 github.com/bufbuild/protocompile v0.14.1 h1:iA73zAf/fyljNjQKwYzUHD6AD4R8KMasmwa/FBatYVw=
 github.com/bufbuild/protocompile v0.14.1/go.mod h1:ppVdAIhbr2H8asPk6k4pY7t9zB1OU5DoEw9xY/FUi1c=
 github.com/dave/dst v0.27.3 h1:P1HPoMza3cMEquVf9kKy8yXsFirry4zEnWOdYPOoIzY=

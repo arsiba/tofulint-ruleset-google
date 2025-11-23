@@ -1,8 +1,8 @@
 package rules
 
 import (
-	"github.com/arsiba/tofulint-plugin-sdk/hclext"
-	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/hclext"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
 	"github.com/arsiba/tofulint-ruleset-google/project"
 )
 
@@ -51,7 +51,7 @@ func (r *{{ .RuleNameCC }}Rule) Link() string {
 // Check checks ...
 func (r *{{ .RuleNameCC }}Rule) Check(runner tflint.Runner) error {
 	// TODO: Write the implementation here. See this documentation for what tflint.Runner can do.
-	//       https://pkg.go.dev/github.com/arsiba/tofulint-plugin-sdk/tflint#Runner
+	//       https://pkg.go.dev/github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint#Runner
 
 	resources, err := runner.GetResourceContent(r.resourceType, &hclext.BodySchema{
 		Attributes: []hclext.AttributeSchema{

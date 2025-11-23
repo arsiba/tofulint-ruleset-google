@@ -3,7 +3,7 @@ package magicmodules
 import (
 	"testing"
 
-	"github.com/arsiba/tofulint-plugin-sdk/helper"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/helper"
 	"github.com/hashicorp/hcl/v2"
 )
 

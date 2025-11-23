@@ -3,7 +3,7 @@ package api
 import (
 	"testing"
 
-	"github.com/arsiba/tofulint-plugin-sdk/helper"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/helper"
 	"github.com/hashicorp/hcl/v2"
 	"google.golang.org/api/serviceusage/v1"
 )

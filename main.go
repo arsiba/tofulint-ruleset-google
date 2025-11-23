@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/arsiba/tofulint-plugin-sdk/plugin"
-	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/plugin"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
 	"github.com/arsiba/tofulint-ruleset-google/google"
 	"github.com/arsiba/tofulint-ruleset-google/project"
 	"github.com/arsiba/tofulint-ruleset-google/rules"

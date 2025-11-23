@@ -1,7 +1,7 @@
 ## What's Changed
 
 ### Breaking Changes
-* Bump github.com/arsiba/tofulint-plugin-sdk from 0.22.0 to 0.23.0 by @dependabot[bot] in https://github.com/arsiba/tofulint-ruleset-google/pull/457
+* Bump github.com/SoeldnerConsult/tofulint-plugin-sdk from 0.22.0 to 0.23.0 by @dependabot[bot] in https://github.com/arsiba/tofulint-ruleset-google/pull/457
   * Requires TFLint v0.46+
 
 ### Enhancements

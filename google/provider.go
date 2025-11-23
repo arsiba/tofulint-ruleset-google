@@ -3,8 +3,8 @@ package google
 import (
 	"os"
 
-	"github.com/arsiba/tofulint-plugin-sdk/hclext"
-	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/hclext"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
 )
 
 // GoogleProviderBlockSchema is a schema of `google` provider block

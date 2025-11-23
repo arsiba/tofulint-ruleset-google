@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/arsiba/tofulint-plugin-sdk/hclext"
-	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/hclext"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
 	"github.com/arsiba/tofulint-ruleset-google/google"
 	"github.com/arsiba/tofulint-ruleset-google/project"
 	"github.com/arsiba/tofulint-ruleset-google/rules/magicmodules"

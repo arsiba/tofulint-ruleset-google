@@ -12,7 +12,7 @@ See https://github.com/arsiba/tofulint-ruleset-google/releases for later release
 ### Enhancements
 
 - [#387](https://github.com/arsiba/tofulint-ruleset-google/pull/387): Add support for principalSet and principal IAM member types
-- [#392](https://github.com/arsiba/tofulint-ruleset-google/pull/392): Bump github.com/arsiba/tofulint-plugin-sdk from 0.20.0 to 0.22.0
+- [#392](https://github.com/arsiba/tofulint-ruleset-google/pull/392): Bump github.com/SoeldnerConsult/tofulint-plugin-sdk from 0.20.0 to 0.22.0
 
 ### Chores
 
@@ -55,7 +55,7 @@ See https://github.com/arsiba/tofulint-ruleset-google/releases for later release
 
 ### Enhancements
 
-- [#350](https://github.com/arsiba/tofulint-ruleset-google/pull/350): Bump github.com/arsiba/tofulint-plugin-sdk from 0.18.0 to 0.20.0
+- [#350](https://github.com/arsiba/tofulint-ruleset-google/pull/350): Bump github.com/SoeldnerConsult/tofulint-plugin-sdk from 0.18.0 to 0.20.0
   - This is required for provider-defined functions support
 - [#352](https://github.com/arsiba/tofulint-ruleset-google/pull/352): Update Magic Modules
 
@@ -129,7 +129,7 @@ See https://github.com/arsiba/tofulint-ruleset-google/releases for later release
 
 ### Chores
 
-- [#286](https://github.com/arsiba/tofulint-ruleset-google/pull/286): Bump github.com/arsiba/tofulint-plugin-sdk from 0.17.0 to 0.18.0
+- [#286](https://github.com/arsiba/tofulint-ruleset-google/pull/286): Bump github.com/SoeldnerConsult/tofulint-plugin-sdk from 0.17.0 to 0.18.0
 - [#288](https://github.com/arsiba/tofulint-ruleset-google/pull/288): Add raw binary entries to checksums.txt
 - [#292](https://github.com/arsiba/tofulint-ruleset-google/pull/292): Bump actions/checkout from 3 to 4
 - [#293](https://github.com/arsiba/tofulint-ruleset-google/pull/293): Bump github.com/hashicorp/hcl/v2 from 2.17.0 to 2.18.0
@@ -140,7 +140,7 @@ See https://github.com/arsiba/tofulint-ruleset-google/releases for later release
 
 ### Breaking Changes
 
-- [#279](https://github.com/arsiba/tofulint-ruleset-google/pull/279): Bump github.com/arsiba/tofulint-plugin-sdk from 0.16.1 to 0.17.0
+- [#279](https://github.com/arsiba/tofulint-ruleset-google/pull/279): Bump github.com/SoeldnerConsult/tofulint-plugin-sdk from 0.16.1 to 0.17.0
   - TFLint v0.40/v0.41 is no longer supported
 - [#280](https://github.com/arsiba/tofulint-ruleset-google/pull/280): Update Magic Modules
   - Remove `google_kms_crypto_key_invalid_purpose` rule
@@ -180,7 +180,7 @@ See https://github.com/arsiba/tofulint-ruleset-google/releases for later release
 - [#254](https://github.com/arsiba/tofulint-ruleset-google/pull/254): Bump actions/setup-go from 3 to 4
 - [#256](https://github.com/arsiba/tofulint-ruleset-google/pull/256): Bump google.golang.org/api from 0.109.0 to 0.114.0
 - [#257](https://github.com/arsiba/tofulint-ruleset-google/pull/257): Bump github.com/hashicorp/terraform-plugin-sdk/v2 from 2.24.1 to 2.26.1
-- [#258](https://github.com/arsiba/tofulint-ruleset-google/pull/258): Bump github.com/arsiba/tofulint-plugin-sdk from 0.15.0 to 0.16.0
+- [#258](https://github.com/arsiba/tofulint-ruleset-google/pull/258): Bump github.com/SoeldnerConsult/tofulint-plugin-sdk from 0.15.0 to 0.16.0
 - [#263](https://github.com/arsiba/tofulint-ruleset-google/pull/263): Follow up of the EnsureNoError deprecation
 - [#264](https://github.com/arsiba/tofulint-ruleset-google/pull/264): deps: Go 1.20
 
@@ -194,7 +194,7 @@ See https://github.com/arsiba/tofulint-ruleset-google/releases for later release
 
 - [#237](https://github.com/arsiba/tofulint-ruleset-google/pull/237): Pass `GITHUB_TOKEN` to e2e test workflow
 - [#235](https://github.com/arsiba/tofulint-ruleset-google/pull/235): Bump goreleaser/goreleaser-action from 3 to 4
-- [#238](https://github.com/arsiba/tofulint-ruleset-google/pull/238): Bump github.com/arsiba/tofulint-plugin-sdk from 0.14.0 to 0.15.0
+- [#238](https://github.com/arsiba/tofulint-ruleset-google/pull/238): Bump github.com/SoeldnerConsult/tofulint-plugin-sdk from 0.14.0 to 0.15.0
 - [#242](https://github.com/arsiba/tofulint-ruleset-google/pull/242) [#245](https://github.com/arsiba/tofulint-ruleset-google/pull/245): Bump google.golang.org/api from 0.103.0 to 0.109.0
 - [#243](https://github.com/arsiba/tofulint-ruleset-google/pull/243): Bump github.com/hashicorp/hcl/v2 from 2.15.0 to 2.16.0
 
@@ -222,7 +222,7 @@ See https://github.com/arsiba/tofulint-ruleset-google/releases for later release
 
 ### Enhancements
 
-- [#222](https://github.com/arsiba/tofulint-ruleset-google/pull/222): Bump github.com/arsiba/tofulint-plugin-sdk from 0.12.0 to 0.14.0
+- [#222](https://github.com/arsiba/tofulint-ruleset-google/pull/222): Bump github.com/SoeldnerConsult/tofulint-plugin-sdk from 0.12.0 to 0.14.0
 - [#224](https://github.com/arsiba/tofulint-ruleset-google/pull/224): Update Magic Modules
 
 ### Chores
@@ -289,7 +289,7 @@ The minimum supported version of TFLint has changed in this version. TFLint v0.4
 - [#165](https://github.com/arsiba/tofulint-ruleset-google/pull/165): Bump actions/setup-go from 2 to 3
 - [#169](https://github.com/arsiba/tofulint-ruleset-google/pull/169) [#173](https://github.com/arsiba/tofulint-ruleset-google/pull/173): Bump google.golang.org/api from 0.73.0 to 0.78.0
 - [#170](https://github.com/arsiba/tofulint-ruleset-google/pull/170): Bump github.com/google/go-cmp from 0.5.7 to 0.5.8
-- [#171](https://github.com/arsiba/tofulint-ruleset-google/pull/171): Bump github.com/arsiba/tofulint-plugin-sdk from 0.10.0 to 0.11.0
+- [#171](https://github.com/arsiba/tofulint-ruleset-google/pull/171): Bump github.com/SoeldnerConsult/tofulint-plugin-sdk from 0.10.0 to 0.11.0
 - [#172](https://github.com/arsiba/tofulint-ruleset-google/pull/172): Bump github.com/hashicorp/terraform-plugin-sdk/v2 from 2.12.0 to 2.15.0
 
 ## 0.16.1 (2022-03-31)
@@ -399,7 +399,7 @@ The minimum supported version of TFLint has changed in this version. TFLint v0.3
 
 ### Chores
 
-- [#107](https://github.com/arsiba/tofulint-ruleset-google/pull/107): Bump github.com/arsiba/tofulint-plugin-sdk from 0.9.0 to 0.9.1
+- [#107](https://github.com/arsiba/tofulint-ruleset-google/pull/107): Bump github.com/SoeldnerConsult/tofulint-plugin-sdk from 0.9.0 to 0.9.1
 - [#108](https://github.com/arsiba/tofulint-ruleset-google/pull/108): Bump github.com/hashicorp/hcl/v2 from 2.10.0 to 2.10.1
 - [#110](https://github.com/arsiba/tofulint-ruleset-google/pull/110): Bump google.golang.org/api from 0.49.0 to 0.52.0
 
@@ -498,7 +498,7 @@ The minimum supported version of TFLint has changed in this version. TFLint v0.2
 
 ### Breaking Changes
 
-- [#70](https://github.com/arsiba/tofulint-ruleset-google/pull/70): Bump github.com/arsiba/tofulint-plugin-sdk from 0.7.0 to 0.8.0
+- [#70](https://github.com/arsiba/tofulint-ruleset-google/pull/70): Bump github.com/SoeldnerConsult/tofulint-plugin-sdk from 0.7.0 to 0.8.0
 
 ### Enhancements
 

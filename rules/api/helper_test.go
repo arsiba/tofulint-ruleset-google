@@ -3,7 +3,7 @@ package api
 import (
 	"testing"
 
-	"github.com/arsiba/tofulint-plugin-sdk/helper"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/helper"
 	"github.com/arsiba/tofulint-ruleset-google/google"
 )
 

@@ -15,7 +15,7 @@
 package magicmodules
 
 import (
-	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
 )
 
 // Rules is a list of rules generated from Magic Modules

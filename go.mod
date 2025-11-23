@@ -1,9 +1,10 @@
-module github.com/arsiba/tofulint-ruleset-google
+module github.com/SoeldnerConsult/tofulint-ruleset-google
 
 go 1.25.1
 
 require (
-	github.com/arsiba/tofulint-plugin-sdk v0.0.2
+	github.com/SoeldnerConsult/tofulint-plugin-sdk v0.0.3
+	github.com/arsiba/tofulint-ruleset-google v0.0.3
 	github.com/dave/dst v0.27.3
 	github.com/google/go-cmp v0.7.0
 	github.com/hashicorp/hcl/v2 v2.24.0
@@ -17,6 +18,7 @@ require (
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
 	github.com/agext/levenshtein v1.2.2 // indirect
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
+	github.com/arsiba/tofulint-plugin-sdk v0.0.2 // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
