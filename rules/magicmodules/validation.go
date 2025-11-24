@@ -1,7 +1,7 @@
 package magicmodules
 
 import (
-	"github.com/arsiba/tofulint-ruleset-google/rules/magicmodules/verify"
+	"github.com/SoeldnerConsult/tofulint-ruleset-google/rules/magicmodules/verify"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 )
 

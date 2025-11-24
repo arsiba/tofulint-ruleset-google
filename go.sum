@@ -11,10 +11,6 @@ github.com/agext/levenshtein v1.2.2/go.mod h1:JEDfjyjHDjOF/1e4FlBE/PkbqA9OfWu2ki
 github.com/apparentlymart/go-textseg/v12 v12.0.0/go.mod h1:S/4uRK2UtaQttw1GenVJEynmyUenKwP++x/+DdGV/Ec=
 github.com/apparentlymart/go-textseg/v15 v15.0.0 h1:uYvfpb3DyLSCGWnctWKGj857c6ew1u1fNQOlOtuGxQY=
 github.com/apparentlymart/go-textseg/v15 v15.0.0/go.mod h1:K8XmNZdhEBkdlyDdvbmmsvpAG721bKi0joRfFdHIWJ4=
-github.com/arsiba/tofulint-plugin-sdk v0.0.2 h1:gr5hArqAYuyZNuKhE3uKKZ4wS2e2rvLLEj+Gr5BKjW8=
-github.com/arsiba/tofulint-plugin-sdk v0.0.2/go.mod h1:kcJPp/tr/y0Pl/MxBb9rByicX0VlRNpjeT4rCtt30fE=
-github.com/arsiba/tofulint-ruleset-google v0.0.2 h1:uHy9PCLc2UaGwkjFVzV4EhQ4rrfcNWydENbQQsJ2GrY=
-github.com/arsiba/tofulint-ruleset-google v0.0.2/go.mod h1:VMD003itKfQCO32cfXvpmXh8WaqnAeAxBw4/g3FQOGY=
 github.com/bufbuild/protocompile v0.14.1 h1:iA73zAf/fyljNjQKwYzUHD6AD4R8KMasmwa/FBatYVw=
 github.com/bufbuild/protocompile v0.14.1/go.mod h1:ppVdAIhbr2H8asPk6k4pY7t9zB1OU5DoEw9xY/FUi1c=
 github.com/dave/dst v0.27.3 h1:P1HPoMza3cMEquVf9kKy8yXsFirry4zEnWOdYPOoIzY=

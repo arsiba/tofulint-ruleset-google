@@ -1,6 +1,6 @@
 # TFLint Ruleset for terraform-provider-google
-[![Build Status](https://github.com/arsiba/tofulint-ruleset-google/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/arsiba/tofulint-ruleset-google/actions)
-[![GitHub release](https://img.shields.io/github/release/arsiba/tofulint-ruleset-google.svg)](https://github.com/arsiba/tofulint-ruleset-google/releases/latest)
+[![Build Status](https://github.com/SoeldnerConsult/tofulint-ruleset-google/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/SoeldnerConsult/tofulint-ruleset-google/actions)
+[![GitHub release](https://img.shields.io/github/release/SoeldnerConsult/tofulint-ruleset-google.svg)](https://github.com/SoeldnerConsult/tofulint-ruleset-google/releases/latest)
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-blue.svg)](LICENSE)
 
 TFLint ruleset plugin for Terraform Google Cloud Platform provider
@@ -18,7 +18,7 @@ You can install the plugin by adding a config to `.tflint.hcl` or `.tofulint.hcl
 plugin "google" {
     enabled = true
     version = "0.0.2"
-    source  = "github.com/arsiba/tofulint-ruleset-google"
+    source  = "github.com/SoeldnerConsult/tofulint-ruleset-google"
 }
 ```
 

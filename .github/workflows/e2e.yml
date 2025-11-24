@@ -32,7 +32,7 @@ jobs:
         go-version-file: 'go.mod'
 
     - name: Install TofuLint
-      run: curl -sL https://raw.githubusercontent.com/arsiba/tofulint/master/install_linux.sh | bash
+      run: curl -sL https://raw.githubusercontent.com/SoeldnerConsult/tofulint/master/install_linux.sh | bash
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

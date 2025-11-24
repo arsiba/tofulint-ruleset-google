@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/SoeldnerConsult/tofulint-plugin-sdk/helper"
-	"github.com/arsiba/tofulint-ruleset-google/google"
+	"github.com/SoeldnerConsult/tofulint-ruleset-google/google"
 )
 
 func NewTestRunner(t *testing.T, files map[string]string) *google.Runner {

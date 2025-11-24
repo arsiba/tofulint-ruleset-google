@@ -6,9 +6,9 @@ import (
 
 	"github.com/SoeldnerConsult/tofulint-plugin-sdk/hclext"
 	"github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
-	"github.com/arsiba/tofulint-ruleset-google/google"
-	"github.com/arsiba/tofulint-ruleset-google/project"
-	"github.com/arsiba/tofulint-ruleset-google/rules/magicmodules"
+	"github.com/SoeldnerConsult/tofulint-ruleset-google/google"
+	"github.com/SoeldnerConsult/tofulint-ruleset-google/project"
+	"github.com/SoeldnerConsult/tofulint-ruleset-google/rules/magicmodules"
 	"google.golang.org/api/serviceusage/v1"
 )
 

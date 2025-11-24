@@ -7,5 +7,5 @@ const Version string = "0.0.2"
 
 // ReferenceLink returns the rule reference link
 func ReferenceLink(name string) string {
-	return fmt.Sprintf("https://github.com/arsiba/tofulint-ruleset-google/blob/v%s/docs/rules/%s.md", Version, name)
+	return fmt.Sprintf("https://github.com/SoeldnerConsult/tofulint-ruleset-google/blob/v%s/docs/rules/%s.md", Version, name)
 }

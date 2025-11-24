@@ -1,4 +1,4 @@
-module github.com/arsiba/tofulint-ruleset-google/tools/release
+module github.com/SoeldnerConsult/tofulint-ruleset-google/tools/release
 
 go 1.24.0
 

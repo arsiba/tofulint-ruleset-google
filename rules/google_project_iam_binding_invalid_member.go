@@ -5,7 +5,7 @@ import (
 
 	"github.com/SoeldnerConsult/tofulint-plugin-sdk/hclext"
 	"github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
-	"github.com/arsiba/tofulint-ruleset-google/project"
+	"github.com/SoeldnerConsult/tofulint-ruleset-google/project"
 )
 
 // GoogleProjectIamBindingInvalidMemberRule checks whether member value is invalid
